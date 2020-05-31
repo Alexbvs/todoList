@@ -1,0 +1,173 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Sales",
+      "colorId": 5
+    },
+    {
+      "id": 2,
+      "name": "Work",
+      "colorId": 4
+    },
+    {
+      "id": 3,
+      "name": "Sport",
+      "colorId": 3
+    },
+    {
+      "id": 4,
+      "name": "Personal",
+      "colorId": 2
+    },
+    {
+      "id": 5,
+      "name": "Books",
+      "colorId": 1
+    },
+    {
+      "name": "Films and TV shows",
+      "colorId": 3,
+      "id": 6
+    },
+    {
+      "name": "Other",
+      "colorId": 7,
+      "id": 7
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "listId": 2,
+      "text": "Lorem ipsum",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "listId": 2,
+      "text": "dolor sit amet",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "listId": 2,
+      "text": "consectetur adipiscing elit",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "listId": 2,
+      "text": "sed do eiusmod",
+      "completed": false
+    },
+    {
+      "listId": 2,
+      "text": "tempor incididunt",
+      "completed": true,
+      "id": 5
+    },
+    {
+      "listId": 1,
+      "text": "ut labore et dolore",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "listId": 1,
+      "text": "magna aliqua",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "listId": 1,
+      "text": "Ut enim ad minim veniam",
+      "completed": true,
+      "id": 8
+    },
+    {
+      "listId": 1,
+      "text": "quis nostrud exercitation",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "listId": 4,
+      "text": "ullamco laboris",
+      "completed": true,
+      "id": 10
+    },
+    {
+      "listId": 2,
+      "text": "nisi ut aliquip ex ea",
+      "completed": true,
+      "id": 12
+    },
+    {
+      "listId": 7,
+      "text": "commodo consequat",
+      "completed": true,
+      "id": 15
+    },
+    {
+      "listId": 7,
+      "text": "Duis aute irure",
+      "completed": true,
+      "id": 16
+    },
+    {
+      "listId": 7,
+      "text": "dolor in reprehenderit",
+      "completed": true,
+      "id": 17
+    },
+    {
+      "listId": 8,
+      "text": "in voluptate velit",
+      "completed": false,
+      "id": 18
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6464",
+      "name": "red"
+    }
+  ]
+}

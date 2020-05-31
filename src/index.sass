@@ -1,0 +1,42 @@
+*
+  margin: 0
+  padding: 0
+  list-style: none
+  outline: none
+  font-family: 'Roboto', -apple-system, system-ui, sans-serif
+
+body
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-size: 16px
+
+.todo
+  position: absolute
+  left: 50%
+  top: 50%
+  width: 750px
+  height: 530px
+  transform: translate(-50%, -30%)
+  border: 1px solid #EEB4B0
+  box-shadow: 1px 3px 20px #BFBDBD
+  border-radius: 10px
+
+  &__sidebar
+    background-color: #E6DFDF
+    width: 200px
+    height: 100%
+    border-right: 1px solid #EEB4B0
+    border-radius: 10px 0 0 10px
+    padding: 60px 20px
+
+.field
+  padding: 8px 10px
+  margin:  5%
+  width: 90%
+  box-sizing: border-box
+  border: 1px solid #7c7c7c
+  border-radius: 4px
+
+  &:focus
+    border-color: #AB00FF 
+

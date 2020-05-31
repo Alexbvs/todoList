@@ -1,0 +1,44 @@
+.add-list__popup
+    width: 235px
+    height: 150px
+    background: #fff
+    border-radius: 5px
+    box-shadow: 0px 3px 10px rgb(0, 0, 0.04)
+    position: relative
+    
+    &-colors 
+        display: flex
+        justify-content: space-between
+        margin: 12px 5% 0 5%
+        width: 90%
+
+    .badge 
+        width: 16px
+        height: 16px
+        cursor: pointer
+        border: 2px solid transparent
+
+        &.active 
+            border: 2px solid #525252
+
+    &-close
+        position: absolute
+        right: -8px
+        top: -8px
+        cursor: pointer
+
+.button
+    background-color: #AB00FF
+    border: 1px solid #3E015B
+    color: #fff
+    margin: 5%
+    width: 90%
+    box-sizing: border-box
+    height: 40px
+    border-radius: 20px
+    cursor: pointer
+    &:hover
+        background-color: #3E015B
+        transition: .5s ease
+    &:active
+        background-color: darken(#AB00FF , 10%)
