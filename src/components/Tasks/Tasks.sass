@@ -1,0 +1,127 @@
+.tasks
+    &:not(:last-of-type) 
+        margin-bottom: 40px
+
+    a 
+        text-decoration: none
+
+    &-title
+        color: #AB00FF
+        border-bottom: 1px solid #EEB4B0
+        padding: 20px
+
+        &:hover
+            img
+                opacity: 0.3
+
+    img 
+        opacity: 0
+        cursor: pointer
+        margin-left: 15px
+
+        &:hover
+            opacity: 0.8
+
+    &__form 
+        margin-top: 20px
+
+    &-block 
+        .button 
+            margin-right: 10px
+            margin-top: 15px
+
+    &-new 
+        display: flex
+        align-items: center
+        cursor: pointer
+        opacity: 0.4
+        transition: opacity 0.15s ease-in-out
+
+        &:hover 
+            opacity: 0.8
+
+        img 
+            width: 16px
+            height: 16px
+            margin-left: 4px
+      
+        span 
+            font-size: 16px
+            margin-left: 19px
+      
+.checkbox
+    input
+        display: none
+
+    &:hover
+        label
+            background-color: #E6DFDF
+            svg
+                opacity: 1
+
+    label
+        display: flex
+        align-items: center
+        justify-content: center
+        border: 2px solid #EEB4B0
+        width: 20px
+        height: 20px
+        border-radius: 30px
+        cursor: pointer
+
+        svg
+            opacity: 0
+
+
+    input:checked + label
+        background-color: #AB00FF
+        border-color: #AB00FF
+
+        svg
+            opacity: 1
+            path
+                stroke: #fff 
+    
+.tasks__items
+    margin-top: 30px
+        
+    &-row
+        display: flex
+        align-items: center
+        margin-bottom: 15px
+
+    &:hover &-actions 
+        opacity: 1
+      
+
+    &-row-actions 
+        display: flex
+        opacity: 0
+        transition: opacity 0.15s ease-in-out
+        
+        &:hover
+            opacity: 1
+        div 
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 32px
+            height: 32px
+            background-color: lighten(#f4f6f8, 2%)
+            border-radius: 6px
+            margin-left: 5px
+            cursor: pointer
+
+            &:hover 
+                background-color: darken(#f4f6f8, 2%)
+            svg 
+                opacity: 0.9
+            
+            svg 
+            width: 11px
+            height: 11px
+            opacity: 0.4
+
+        input
+            margin-left: 15px
+            border: none

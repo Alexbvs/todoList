@@ -53,7 +53,7 @@
       "id": 3,
       "listId": 2,
       "text": "consectetur adipiscing elit",
-      "completed": true
+      "completed": false
     },
     {
       "id": 4,
@@ -64,12 +64,12 @@
     {
       "listId": 2,
       "text": "tempor incididunt",
-      "completed": true,
+      "completed": false,
       "id": 5
     },
     {
       "listId": 1,
-      "text": "ut labore et dolore",
+      "text": "ut labore et doloresdfdsf",
       "completed": false,
       "id": 6
     },
@@ -82,7 +82,7 @@
     {
       "listId": 1,
       "text": "Ut enim ad minim veniam",
-      "completed": true,
+      "completed": false,
       "id": 8
     },
     {
@@ -98,45 +98,45 @@
       "id": 10
     },
     {
-      "listId": 2,
-      "text": "nisi ut aliquip ex ea",
-      "completed": true,
-      "id": 12
-    },
-    {
       "listId": 7,
       "text": "commodo consequat",
-      "completed": true,
+      "completed": false,
       "id": 15
     },
     {
       "listId": 7,
       "text": "Duis aute irure",
-      "completed": true,
+      "completed": false,
       "id": 16
     },
     {
       "listId": 7,
-      "text": "dolor in reprehenderit",
+      "text": "dolor in reprehenderitaxax",
       "completed": true,
       "id": 17
     },
     {
-      "listId": 8,
-      "text": "in voluptate velit",
+      "listId": 6,
+      "text": "fdhdfhfdhgfh",
       "completed": false,
       "id": 18
+    },
+    {
+      "listId": 3,
+      "text": "saasdsadasdas",
+      "completed": false,
+      "id": 19
     }
   ],
   "colors": [
     {
       "id": 1,
-      "hex": "#C9D1D3",
+      "hex": "#C4C6C6",
       "name": "grey"
     },
     {
       "id": 2,
-      "hex": "#42B883",
+      "hex": "#02DC6E",
       "name": "green"
     },
     {
@@ -146,17 +146,17 @@
     },
     {
       "id": 4,
-      "hex": "#FFBBCC",
+      "hex": "#DB3FC1",
       "name": "pink"
     },
     {
       "id": 5,
-      "hex": "#B6E6BD",
+      "hex": "#0BDC03",
       "name": "lime"
     },
     {
       "id": 6,
-      "hex": "#C355F5",
+      "hex": "#BC08D7 ",
       "name": "purple"
     },
     {
@@ -166,7 +166,7 @@
     },
     {
       "id": 8,
-      "hex": "#FF6464",
+      "hex": "#DC0202",
       "name": "red"
     }
   ]
