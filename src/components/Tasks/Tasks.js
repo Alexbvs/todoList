@@ -19,7 +19,7 @@ const Tasks = ({
   withoutEmpty
 }) => {
   const editTitle = () => {
-    const newTitle = window.prompt('Название списка', list.name);
+    const newTitle = window.prompt('List Name', list.name);
     if (newTitle) {
       onEditTitle(list.id, newTitle);
       axios
@@ -27,14 +27,14 @@ const Tasks = ({
           name: newTitle
         })
         .catch(() => {
-          alert('Не удалось обновить название списка');
+          alert('Failed to update list name');
         });
     }
   };
 
   return (
     <div className="tasks">
-      <Link NavLink to={`/lists/${list.id}`}>
+      <Link to={`/lists/${list.id}`}>
         <h2 style={{ color: list.color.hex }} className="tasks__title">
           {list.name}
           <img onClick={editTitle} src={editSvg} alt="Edit icon" />
@@ -43,7 +43,7 @@ const Tasks = ({
 
       <div className="tasks__items">
         {!withoutEmpty && list.tasks && !list.tasks.length && (
-          <h2>Задачи отсутствуют</h2>
+          <h2>No tasks</h2>
         )}
         {list.tasks &&
           list.tasks.map(task => (

@@ -117,15 +117,9 @@
     },
     {
       "listId": 6,
-      "text": "fdhdfhfdhgfh",
-      "completed": false,
+      "text": "fdhdfhfdhgfh12345566",
+      "completed": true,
       "id": 18
-    },
-    {
-      "listId": 3,
-      "text": "saasdsadasdas",
-      "completed": false,
-      "id": 19
     }
   ],
   "colors": [
